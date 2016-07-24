@@ -3,18 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+package postfix;
 /**
  *
  * @author raul_
  */
 public class main {
     public static void main(String[] args){
-        archivos a = new archivos();
-        System.out.println(a.leerArchivos("C:\\Users\\raul_\\Desktop\\Tareas 4to Semestre\\Algoritmos y Estructura de Datos\\HojaTrabajo2\\src\\Hola Mundo.txt"));
+        Archivos a = new Archivos();
+        String linea=" ";
+        linea=(a.leerArchivos("C:\\Users\\Didier\\Desktop\\PostFix\\src\\postfix\\datos.txt"));
+        Pila pil = new Pila(linea);
+        pil.operar();
+        System.out.println("El resultado de las operaciones expresadas en el archivo es:"+pil.resultado());  
         
-        
-                
     }
     
 }
+
