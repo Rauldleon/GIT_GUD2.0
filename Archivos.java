@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+package postfix;
 /**
  *
  * @author raul_
  */
 import java.io.*;
        
-public class archivos{
+public class Archivos{
     public String leerArchivos(String direccion){
         String texto = "";
         try{
@@ -28,4 +28,3 @@ public class archivos{
         return texto;
     }
 }
-    
