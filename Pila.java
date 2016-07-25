@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package postfix;
 import java.util.*;
 /**
  *
@@ -18,6 +17,11 @@ public class Pila implements iPila{
         this.linea=linea;
         pila=new Vector(1,1);
     }
+    //Usado en el JUnit Test
+    Pila() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public void setLinea(String linea){
         this.linea=linea;
     }

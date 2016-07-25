@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package postfix;
+
 /**
  *
  * @author raul_
@@ -20,4 +20,3 @@ public class main {
     }
     
 }
-
